@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+}
+.App{
+    height: 85vh;
+    display:flex;
+}
+
+body {
+    padding: 0;
+    margin:  0;
+    background: #ebecee;
+    color: #1d2129;
+}
+
+.section{
+    height: 80vh;
+}

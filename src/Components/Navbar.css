@@ -1,0 +1,54 @@
+@charset "UTF-8";
+:root {
+  --pink: #FEB400;
+}
+
+
+
+:root {
+  --pink: #FEB400;
+
+}
+#navbar {
+  width: 100vw;
+  font-weight: bold;
+  background-color: #192024;
+}
+#navbar ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1em 0;
+}
+#navbar ul li:first-child {
+  margin-right: auto;
+  margin-left: 3em;
+}
+#navbar ul li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 5em;
+  position: relative;
+  transition: all ease-in-out 550ms;
+}
+#navbar ul li a::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.4em;
+  width: 0%;
+  background-color: var(--pink);
+  bottom: -1em;
+  transition: all ease-in-out 250ms;
+}
+#navbar ul li a:hover::after {
+  width: 60%;
+}
+#navbar ul li a:hover {
+  color: var(--pink);
+}
+
+
+

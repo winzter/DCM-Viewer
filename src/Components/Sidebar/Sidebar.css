@@ -1,0 +1,19 @@
+.Sidebar{
+    height: 91.999vh;
+    width: 20vw;
+    overflow-y: auto;
+    background-color: white;
+    border-right: 1px solid #ccc;
+}
+
+/* #mouse::-webkit-scrollbar { width: 0 !important } */
+
+.SidebarList{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+
+

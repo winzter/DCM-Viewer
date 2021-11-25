@@ -37,7 +37,7 @@
   content: "";
   position: absolute;
   display: block;
-  height: 0.4em;
+  height: 0.2em;
   width: 0%;
   background-color: var(--pink);
   bottom: -1em;
